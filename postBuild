@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# Configure git defaults
+git config --global user.name "jovyan"
+git config --global user.email "jovyan@mybinder"
+
+# Configure Julia
+julia config.jl
