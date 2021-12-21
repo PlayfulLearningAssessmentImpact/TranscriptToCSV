@@ -15,7 +15,19 @@ You'll find everything you need in `main.ipynb`!
 
 # About
 
-TODO
+This script looks for a file in `data/transcript.txt` with format like the following:
+
+```txt
+>> Alice: Are we Group 1 or 2? Just the group.
+
+>> Beth Anne: One.
+
+>> Carol: So should we just like throw up a whiteboard and start trying to like collectively sketch a prototype?
+
+>> Alice: Yeah, let's do that. Do we want to do that on Slide 24?
+```
+
+It then produces a DataFrame representation of that and stores that as a CSV file.
 
 # Making Edits
 
