@@ -10,3 +10,4 @@
 .ipython
 __pycache__
 .python_history
+data/output.csv
